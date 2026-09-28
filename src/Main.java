@@ -28,16 +28,16 @@ void main(){
     b.printBadge();
     
     // Tests
-    b.setName("");
+    b.setName(""); // Empty name
     b.setName("Barry");
 
-    b.setAccessCategory(5);
+    b.setAccessCategory(5); // Out of bounds category
     b.setAccessCategory(2);
 
-    b.setIssuedBy("");
+    b.setIssuedBy(""); // Empty name
     b.setIssuedBy("Malo");
 
-    b.setIdNumber(-10);
+    b.setIdNumber(-10); // Negative id
     b.setIdNumber(1012);
 
     b.printBadge();

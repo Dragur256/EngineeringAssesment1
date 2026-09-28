@@ -76,7 +76,7 @@ public class Badge {
 
     public void printBadge(){ // Prints badge information (name, id number, access level, issuing officer)
         System.out.println("Name: "+name);
-        System.out.println("Badge ID: "+idNumber);
+        //System.out.println("Badge ID: "+idNumber); // Doesn't say to print ID
         System.out.print("Access level: ");
         if(accessCategory==0){
             System.out.println("Visitor - Temporary Access");
